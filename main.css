@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.name{
+	text-align: center;
+	margin-top: 8rem;
+	font-size: 3rem;
+	font-family: Cursive;
+	color: gray;
+	text-shadow: 2px 2px 8px #5baaf0;
+}
+#image{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #5baaf0;
+	margin-top: -290px;
+	border-radius:50%;
+	box-shadow: 5px 5px 10px #5baaf0;
+}
+.icon a{
+	padding: 10px;
+}
+.insta{
+	height: 40px;
+	width: 40px;
+}
+.twit{
+	height: 40px;
+	width: 40px;
+}
+.github{
+	height: 40px;
+	width: 40px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background:linear-gradient(to right,white,lightblue,skyblue,#5baaf0,skyblue,lightblue,white);
+	font-family: cursive;
+	color:#f7a85e;
+	border-top: solid 2px #eb9e57;
+	border-radius: 10%;
+}
+.footer-center{
+	position: fixed;
+	bottom: 0;
+
+	
+}
+.footer-link a{
+text-decoration: none;
+color:#dbd3d4;
+font-size: 16px;
+border:solid 1px orange;
+border-radius:20px;
+background: orange;
+}
