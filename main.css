@@ -2,6 +2,22 @@
 	margin: 0px;
 	padding: 0px;
 }
+#navbar{
+
+	background:linear-gradient(to right,#fff2e6,#ffbf80,#ff9933,#ff8000,#ffbf80,#ffbf80,#fff2e6);
+
+}
+#navbar a{
+
+	color:#5baaf0;
+	font-family: cursive;
+
+}
+#navbar a:hover{
+
+	color:cyan;
+	padding: 2px;
+}
 .name{
 	text-align: center;
 	margin-top: 8rem;
@@ -19,12 +35,16 @@
 	box-shadow: 5px 5px 10px #5baaf0;
 }
 .icon a{
-	padding: 10px;
+	padding: 20px;
 }
+
 .insta{
 	height: 40px;
 	width: 40px;
 }
+.insta:hover{
+	height: 45px;
+	}
 .twit{
 	height: 40px;
 	width: 40px;
@@ -32,6 +52,33 @@
 .github{
 	height: 40px;
 	width: 40px;
+}
+.gallery-images{
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 70px;
+		font-family: cursive;
+		
+		font-size: 28px;
+
+}
+.gallery-images a{
+		padding-left: 20px;
+		text-decoration: none;
+		color:#f7a85e;
+
+}
+
+
+.image1{
+	box-shadow:  20px 20px 25px #5baaf0;
+}
+.image2{
+	box-shadow:  20px 20px 25px #5baaf0;
+}
+.image3{
+	box-shadow:  20px 20px 25px #5baaf0;
 }
 footer{
 	position: fixed;
@@ -56,4 +103,18 @@ font-size: 16px;
 border:solid 1px orange;
 border-radius:20px;
 background: orange;
+box-shadow: 4px 4px hotpink;
+
 }
+.footer-link a:hover{
+
+	background: white;
+	padding: 4px;
+}
+/* sunset photos*/
+.sunset-photo-tab{
+
+		margin-left:230px;
+		margin-top: 50px;
+
+		}
